@@ -20,7 +20,7 @@ jobs:
         include:
           - arch: rockchip_armv8
             sdk_url_path: https://downloads.openwrt.org/releases/24.10.0/targets/rockchip/armv8/
-            sdk_name: openwrt-sdk-24.10.0-rockchip-armv8_gcc-13.3.0_musl.Linux-x86_64
+            sdk_name: -sdk-24.10.0-rockchip-armv8_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
